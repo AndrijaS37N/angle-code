@@ -14,7 +14,6 @@ func main() {
 	Tutorial.Third()
 	Tutorial.Fourth()
 	Tutorial.Fifth()
+	Tutorial.Sixth()
 	CyanBold("Program: END\n")
-
-	// TODO -> WIP
 }

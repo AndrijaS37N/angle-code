@@ -117,12 +117,11 @@ func Fifth() {
 	// Tags.
 	t := reflect.TypeOf(Animal{})
 	field, _ := t.FieldByName("name")
-	fmt.Println(field.Tag)
+	fmt.Print(field.Tag)
 	/*
 		Note about maps and structures:
 		Maps, like slices and arrays are referenced types.
 		Structures are value types, not effecting other structures that are passed to a new struct.
 	 */
-	Yellow("WIP")
 	WhiteBold("Fifth personal tutorial: END")
 }
