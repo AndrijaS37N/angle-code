@@ -6,17 +6,38 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
+	"reflect"
 )
 
 const (
 	messageToHelena string = "I think of you."
-	symbol string = "❤️"
+	symbol          string = "❤️"
 )
 
 type Husky struct {
 	id      int // To be visible outside of this package, use uppercase member names.
 	name    string
 	friends []string
+}
+
+type Animal struct {
+	name string `required min: "2"`
+	size string
+}
+
+type Elephant struct {
+	Animal  // Go's struct complementing, Go's "inheritance". Composition via embedding!
+	earSize string
+	temper  string
+}
+
+var my Elephant = Elephant{
+	Animal: Animal{
+		name: "Andrew",
+		size: "Small",
+	},
+	earSize: "Big",
+	temper:  "Stormy",
 }
 
 func Fifth() {
@@ -79,10 +100,10 @@ func Fifth() {
 	myHMAC.Write([]byte(data))
 	mySHA := hex.EncodeToString(myHMAC.Sum(nil))
 	anonHusky := struct {
-		message string
+		message  string
 		username string
 		password string
-		symbol string
+		symbol   string
 	}{username: "Anon K'eyush", password: mySHA, message: "", symbol: symbol}
 	anonHusky.message = "Ruf ruf!"
 	fmt.Println(anonHusky)
@@ -90,9 +111,18 @@ func Fifth() {
 	anotherAnonHusky.username = "Andrew"
 	anotherAnonHusky.message = messageToHelena
 	fmt.Println(anotherAnonHusky)
-
-	// TODO -> WIP Go's "Inheritance"
-
+	// Change some Elephant{} params.
+	my.temper = "💩"
+	fmt.Println("Elephant:", my)
+	// Tags.
+	t := reflect.TypeOf(Animal{})
+	field, _ := t.FieldByName("name")
+	fmt.Println(field.Tag)
+	/*
+		Note about maps and structures:
+		Maps, like slices and arrays are referenced types.
+		Structures are value types, not effecting other structures that are passed to a new struct.
+	 */
 	Yellow("WIP")
 	WhiteBold("Fifth personal tutorial: END")
 }
