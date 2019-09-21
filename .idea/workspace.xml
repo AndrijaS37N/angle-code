@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc13f3-1844-468d-aa7c-09e075f3bfc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/angle-code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/andrijadjuric.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/angle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/fifth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/first.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/fourth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/second.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/sixth.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorial/third.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dangle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dangle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorials/sixth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/sixth.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

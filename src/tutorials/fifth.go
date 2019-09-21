@@ -1,4 +1,4 @@
-package tutorial
+package tutorials
 
 import (
 	"crypto/hmac"
