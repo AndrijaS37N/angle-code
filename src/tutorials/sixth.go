@@ -50,10 +50,6 @@ func Sixth() {
 	fmt.Println("GUI window closed")
 	// Check if text entered by the user is bigger than 7 in char len.
 	fmt.Println("Checking the length of the entered text (text > 7):", checkLen(&text))
-
-	// TODO -> WIP
-
-	Yellow("WIP")
 	WhiteBold("Sixth personal tutorial: END")
 }
 
