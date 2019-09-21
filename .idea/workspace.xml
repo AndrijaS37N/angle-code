@@ -36,7 +36,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="angle" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <configuration name="dangle" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="dangle" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
