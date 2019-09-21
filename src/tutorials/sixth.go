@@ -6,6 +6,7 @@ import (
 	"fyne.io/fyne"
 	"fyne.io/fyne/app"
 	"fyne.io/fyne/widget"
+	"os"
 )
 
 var numbers = map[int]string{
@@ -28,6 +29,10 @@ func Sixth() {
 	if pop >= 3 {
 		fmt.Println("Pop is greater than 3.")
 	}
+	fmt.Print("Enter text: ")
+	var text string
+	t, err := fmt.Scanln(&text)
+	ioFunc(t, err, &text)
 	// Trying out the cross-platform GUI library of Go.
 	fmt.Println("Opening a GUI window")
 	myApp := app.New()
@@ -43,9 +48,32 @@ func Sixth() {
 	))
 	w.ShowAndRun()
 	fmt.Println("GUI window closed")
+	// Check if text entered by the user is bigger than 7 in char len.
+	fmt.Println("Checking the length of the entered text (text > 7):", checkLen(&text))
 
 	// TODO -> WIP
 
 	Yellow("WIP")
 	WhiteBold("Sixth personal tutorial: END")
+}
+
+func checkLen(text *string) bool {
+	if len(*text) > 7 {
+		return true
+	} else {
+		return false
+	}
+}
+
+func ioFunc(t int, err error, text *string) string {
+	if err != nil {
+		_, _ = fmt.Fprintln(os.Stderr, err)
+		return err.Error()
+	}
+	fmt.Println("Adding '_37' to the end of the string:")
+	*text = *text + "_37"
+	fmt.Println(t)
+	fmt.Println(err)
+	fmt.Println("Text:", *text)
+	return *text
 }
