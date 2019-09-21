@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/angle-code.iml" filepath="$PROJECT_DIR$/.idea/angle-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dangle.iml" filepath="$PROJECT_DIR$/.idea/dangle.iml" />
     </modules>
   </component>
 </project>
