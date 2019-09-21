@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cfc13f3-1844-468d-aa7c-09e075f3bfc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dangle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dangle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/sixth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/sixth.go" afterDir="false" />
-    </list>
+    <list default="true" id="1cfc13f3-1844-468d-aa7c-09e075f3bfc8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="angle" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="dangle" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
