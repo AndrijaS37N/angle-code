@@ -8,17 +8,21 @@ import (
 )
 
 func main() {
-	CyanBold("Tut program: START")
+	CyanBold("Tutorial program: START")
 	Tutorials.First()
 	Tutorials.Second()
 	Tutorials.Third()
 	Tutorials.Fourth()
 	Tutorials.Fifth()
 	Tutorials.Sixth()
-	Yellow("TUTS FINISHED\n" +
+	Yellow("Tutorials: FINISHED\n" +
 		"Checked out:\n" +
 		"* Go's switch statement (fallthrough, type-switch: interface{}.type cases, early break)\n" +
 		"* Or (|) condition short circuiting\n" +
-		"* Looping - Continuing in the Go Playground -\n")
-	CyanBold("Tut program: END\n")
+		"* Looping (labels, ranges)\n" +
+		"* Defer (continue later exec of the program, before main finishes exec, LIFO), panic (Go's exceptions), recover (saving the program)\n" +
+		"* Continuing in the Go Playground .....\n")
+	CyanBold("Tutorial program: END\n")
+
+	// TODO -> WIP
 }
