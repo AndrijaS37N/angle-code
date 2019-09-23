@@ -8,6 +8,12 @@ import (
 )
 
 func main() {
+	execTutorialProgram()
+
+	// TODO -> WIP
+}
+
+func execTutorialProgram() {
 	Yellow("Note: Some dependencies use deprecated macOS modules and packages!\n")
 	CyanBold("Tutorial program: START")
 	Tutorials.First()
@@ -24,6 +30,4 @@ func main() {
 		"* Defer (continue later exec of the program, before main finishes exec, LIFO), panic (Go's exceptions), recover (saving the program)\n" +
 		"* Continuing in the Go Playground\n")
 	CyanBold("Tutorial program: END\n")
-
-	// TODO -> WIP
 }
