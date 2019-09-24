@@ -11,5 +11,5 @@ func WhiteBold(text string) {
 }
 
 func Yellow(text string) {
-	fmt.Print("\033[0;33m", text, "\033\b")
+	fmt.Print("\033[0;33m", text, "\033[0m\b")
 }
