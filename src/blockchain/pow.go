@@ -48,9 +48,9 @@ func (pow *POW) Validate() bool {
 
 func ToHex(number int64) []byte {
 	buffer := new(bytes.Buffer)
-	error := binary.Write(buffer, binary.BigEndian, number)
-	if error != nil {
-		log.Panic(error)
+	e := binary.Write(buffer, binary.BigEndian, number)
+	if e != nil {
+		log.Panic(e)
 	}
 	return buffer.Bytes()
 }

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cfc13f3-1844-468d-aa7c-09e075f3bfc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blockchain/blockchain.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blockchain/pow.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dangle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dangle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tcoloring/colors.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcoloring/colors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockchain/pow.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/blockchain/pow.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
