@@ -3,6 +3,7 @@ package tcoloring
 import "fmt"
 
 func CyanBold(text string) {
+	fmt.Println()
 	fmt.Printf("\033[1;36m%s\033[0m", text)
 }
 

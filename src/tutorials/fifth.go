@@ -21,14 +21,14 @@ type Husky struct {
 }
 
 type Animal struct {
-	name string `required min: "2"`
+	name string `String name minimum characters: 2`
 	size string
 }
 
 type Elephant struct {
 	Animal  // Go's struct complementing, Go's "inheritance". Composition via embedding!
 	earSize string
-	temper  string
+	weather  string
 }
 
 var my Elephant = Elephant{
@@ -37,7 +37,7 @@ var my Elephant = Elephant{
 		size: "Small",
 	},
 	earSize: "Big",
-	temper:  "Stormy",
+	weather:  "Stormy",
 }
 
 func Fifth() {
@@ -112,7 +112,7 @@ func Fifth() {
 	anotherAnonHusky.message = messageToHelena
 	fmt.Println(anotherAnonHusky)
 	// Change some Elephant{} params.
-	my.temper = "💩"
+	my.weather = "🌤"
 	fmt.Println("Elephant:", my)
 	// Tags.
 	t := reflect.TypeOf(Animal{})

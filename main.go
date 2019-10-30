@@ -3,34 +3,18 @@ package main
 // Go looks nice. 🐘
 
 import (
-	Protocol "dangle/src/blockchain"
 	. "dangle/src/tcoloring"
 	Tutorials "dangle/src/tutorials"
 	"fmt"
-	"strconv"
 	"strings"
 )
 
 func main() {
-	// execTutorialProgram()
 	fmt.Println(strings.Repeat("-", 2*37), "🏁")
 	defer fmt.Println(strings.Repeat("-", 2*37), "🏁")
 	func() {
-		chain := Protocol.InitChain()
-		for i := 1; i <= 7; i++ {
-			chain.AddBlock(strconv.Itoa(i))
-		}
-		fmt.Println()
-		for i, block := range chain.Blocks {
-			fmt.Printf("Block #%v:\nPrevious hash: %x\nData: %s\nHash: %x\n", i, block.PreviousHash, block.Data, block.Hash)
-			pow := Protocol.NewProof(block)
-			fmt.Printf("POW: %s\n", strconv.FormatBool(pow.Validate()))
-			fmt.Println()
-		}
-		Yellow("WIP")
-		fmt.Println()
+		execTutorialProgram()
 	}()
-	// TODO -> Making of a 'block-chain' base package.
 }
 
 // 🧩👇
@@ -50,6 +34,6 @@ func execTutorialProgram() {
 		"* Looping (labels, ranges)\n" +
 		"* Defer (continue later exec of the program, before main finishes exec, LIFO), panic (Go's exceptions), recover (saving the program)\n" +
 		"* Continuing in the Go Playground\n" +
-		"* Continuing in the project implementation")
+		"* Putting Go on hold, specialize and go deeper SE and CS 👍")
 	CyanBold("Tutorial program: END\n")
 }

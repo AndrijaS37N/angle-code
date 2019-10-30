@@ -38,7 +38,7 @@ func Sixth() {
 	myApp := app.New()
 	w := myApp.NewWindow("Hello From Go")
 	w.CenterOnScreen()
-	fmt.Println(".....")
+	fmt.Println("Screen was open")
 	w.Resize(fyne.NewSize(700, 300))
 	w.SetContent(widget.NewVBox(
 		widget.NewLabel("Hello World!"),

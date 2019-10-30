@@ -1,7 +1,7 @@
 # Dangle
-<h3>A decentralized base for the Angle project.</h3>
-Trying to implement this idea in Go.
+<h3>Personal Go playground for learning.</h3>
+Learning and practising the Go programming language.
 
-Huge part of this is actually [Tensor-Programming's](http://tensor-programming.com) way of implementing a blockchain base.
+Some cool references for learning: [Tensor-Programming](http://tensor-programming.com), a way of implementing a simple blockchain prototype.
 
 
