@@ -1,4 +1,4 @@
-# Dangle
+# Gotuts
 <h3>Personal Go playground for learning.</h3>
 Learning and practising the Go programming language.
 

@@ -1,8 +1,8 @@
 package tutorials
 
 import (
-	. "dangle/src/tcoloring"
 	"fmt"
+	. "gotuts/src/tcoloring"
 )
 
 var (

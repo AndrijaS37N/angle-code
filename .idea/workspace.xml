@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cfc13f3-1844-468d-aa7c-09e075f3bfc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dangle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dangle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blockchain/blockchain.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blockchain/pow.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tcoloring/colors.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tcoloring/colors.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/fifth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/fifth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/sixth.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/sixth.go" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="1cfc13f3-1844-468d-aa7c-09e075f3bfc8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,37 +23,63 @@
   </component>
   <component name="ProjectId" id="1R9XLDrBm66KUXadVpEanR7PJCr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
-    <configuration name="dangle" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="dangle" />
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gotuts" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
+      <filePath value="$PROJECT_DIR$/" />
       <package value="dangle" />
       <directory value="$PROJECT_DIR$/" />
-      <output_directory value="$PROJECT_DIR$/bin" />
       <method v="2" />
     </configuration>
+    <configuration name="gotuts" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gotuts" />
+      <working_directory value="$PROJECT_DIR$/../gotuts/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../gotuts/main.go" />
+      <package value="dangle" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/../gotuts/bin" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="gotuts" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="dangle" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -82,8 +97,39 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="104" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578428670645">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="104" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.742@0.23.1280.742" timestamp="1578428670645" />
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1578428248356">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.742@0.23.1280.742" timestamp="1578428248356" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1578428248355">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.742@0.23.1280.742" timestamp="1578428248355" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1578428248355">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.742@0.23.1280.742" timestamp="1578428248355" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1578428248356">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.742@0.23.1280.742" timestamp="1578428248356" />
+    <state x="141" y="33" key="SettingsEditor" timestamp="1578428684594">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="141" y="33" key="SettingsEditor/0.23.1280.742@0.23.1280.742" timestamp="1578428684594" />
   </component>
 </project>

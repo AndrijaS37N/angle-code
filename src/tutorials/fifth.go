@@ -3,9 +3,9 @@ package tutorials
 import (
 	"crypto/hmac"
 	"crypto/sha256"
-	. "dangle/src/tcoloring"
 	"encoding/hex"
 	"fmt"
+	. "gotuts/src/tcoloring"
 	"reflect"
 )
 

@@ -3,9 +3,9 @@ package main
 // Go looks nice. 🐘
 
 import (
-	. "dangle/src/tcoloring"
-	Tutorials "dangle/src/tutorials"
 	"fmt"
+	. "gotuts/src/tcoloring"
+	Tutorials "gotuts/src/tutorials"
 	"strings"
 )
 

@@ -1,11 +1,11 @@
 package tutorials
 
 import (
-	. "dangle/src/tcoloring"
 	"fmt"
 	"fyne.io/fyne"
 	"fyne.io/fyne/app"
 	"fyne.io/fyne/widget"
+	. "gotuts/src/tcoloring"
 	"os"
 )
 

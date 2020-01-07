@@ -1,4 +1,4 @@
-module dangle
+module gotuts
 
 go 1.13
 
